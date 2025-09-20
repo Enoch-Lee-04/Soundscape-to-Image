@@ -222,7 +222,7 @@ class WLC(VGG):
 
                 self.pproc.load_state_dict(state_dict)
         self.to(self.device)
-        self.model = models.Cnn14_DecisionLevelMax(sample_rate=44100, window_size=520, hop_size=160, mel_bins=64, fmin=50, fmax=14000, classes_num=200).cuda()
+        self.model = models.Cnn14_DecisionLevelMax(sample_rate=44100, window_size=520, hop_size=160, mel_bins=64, fmin=50, fmax=14000, classes_num=200).to(self.device)
 
     def forward(self, x, fs=None):
         # print(x)
@@ -238,11 +238,12 @@ class WLC(VGG):
     def _preprocess(self, x, fs):
         if isinstance(x, np.ndarray):
             x = vggish_input.waveform_to_examples(x, fs)
+            return x, fs
         elif isinstance(x, str):
-            x,sd = vggish_input.wavfile_to_examples2(x)
+            x, sr = vggish_input.wavfile_to_examples2(x)
+            return x, sr
         else:
             raise AttributeError
-        return x,sd
 
     def _postprocess(self, x):
         return self.pproc(x)

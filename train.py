@@ -12,7 +12,8 @@ import cv2
 from imagen_pytorch import ImagenTrainer
 
 
-torch.cuda.empty_cache()
+if torch.cuda.is_available():
+    torch.cuda.empty_cache()
 transform = transforms.Compose([
     transforms.ToTensor(),
 ]) 
@@ -56,7 +57,7 @@ def main(args):
         trainer.load(args.continue_unet_ckpt)
 
     model = vggish.WLC(urls="", pretrained=False).to(device)
-    model.load_state_dict(torch.load(args.pre_trained_audio_encoder).state_dict())
+    model.load_state_dict(torch.load(args.pre_trained_audio_encoder, weights_only=False, map_location=device).state_dict())
     model.eval()
 
     epo= args.epochs

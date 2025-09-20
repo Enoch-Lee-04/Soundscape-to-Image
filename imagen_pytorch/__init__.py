@@ -1,21 +1,21 @@
-from models.sound_to_image.models.imagen_pytorch.imagen_pytorch import Imagen, Unet
-from models.sound_to_image.models.imagen_pytorch.imagen_pytorch import NullUnet
-from models.sound_to_image.models.imagen_pytorch.imagen_pytorch import BaseUnet64, SRUnet256, SRUnet1024
-from models.sound_to_image.models.imagen_pytorch.trainer import ImagenTrainer
-from models.sound_to_image.models.imagen_pytorch.version import __version__
+from .imagen_pytorch import Imagen, Unet
+from .imagen_pytorch import NullUnet
+from .imagen_pytorch import BaseUnet64, SRUnet256, SRUnet1024
+from .trainer import ImagenTrainer
+from .version import __version__
 
 # imagen using the elucidated ddpm from Tero Karras' new paper
 
-from models.sound_to_image.models.imagen_pytorch.elucidated_imagen import ElucidatedImagen
+from .elucidated_imagen import ElucidatedImagen
 
 # config driven creation of imagen instances
 
-from models.sound_to_image.models.imagen_pytorch.configs import UnetConfig, ImagenConfig, ElucidatedImagenConfig, ImagenTrainerConfig
+from .configs import UnetConfig, ImagenConfig, ElucidatedImagenConfig, ImagenTrainerConfig
 
 # utils
 
-from models.sound_to_image.models.imagen_pytorch.utils import load_imagen_from_checkpoint
+from .utils import load_imagen_from_checkpoint
 
 # video
 
-from models.sound_to_image.models.imagen_pytorch.imagen_video import Unet3D
+from .imagen_video import Unet3D

@@ -1,4 +1,5 @@
 import time
+import argparse
 
 import torch.optim as optim
 from PIL import Image
@@ -85,7 +86,7 @@ def main(args):
     trainer.load(args.unet_ckpt)
 
     model = vggish.WLC(urls="", pretrained=False).to(device)
-    model.load_state_dict(torch.load(args.audio_encoder_ckpt).state_dict())
+    model.load_state_dict(torch.load(args.audio_encoder_ckpt, weights_only=False, map_location=device).state_dict())
     model.eval()
     trainer.eval()
 
@@ -97,11 +98,10 @@ def main(args):
         img=trainer.sample(text_embeds=fmusic,batch_size = 1,cond_scale = args.cond_scale)
         img=img.squeeze(0)
         imgsave(img , f'{args.test_image_path}/{i}.png')
-        imgsave("./testresult/"+i+"_generated.png")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--audio-enconder-ckpt', type=str, default= None, required=False, help="path to the checkpoint")
+    parser.add_argument('--audio-encoder-ckpt', type=str, default= None, required=False, help="path to the checkpoint")
     parser.add_argument('--unet-ckpt', type=str, default= None, required=False, help="path to the checkpoint")
     parser.add_argument('--test-audio-path', type=str, default= './data/audio', required=False, help="path to the dataset")
     parser.add_argument('--test-image-path', type=str, default= './data/image', required=False, help="path to the dataset")

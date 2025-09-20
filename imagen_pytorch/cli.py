@@ -49,7 +49,8 @@ def sample(
     # get imagen parameters and type
 
     imagen = load_imagen_from_checkpoint(str(model_path), load_ema_if_available = load_ema)
-    imagen.cuda()
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    imagen = imagen.to(device)
 
     # generate image
 
