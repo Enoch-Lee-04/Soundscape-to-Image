@@ -45,7 +45,10 @@ def imshow(tensor, title=None):
 def imgsave(image,pa):
     tensor=image.permute(1,2,0)
     print(tensor.shape)
-    cv2.imwrite(pa,tensor.cpu().numpy()*255)
+    # Convert tensor to PIL Image and save
+    img_array = (tensor.cpu().numpy() * 255).astype(np.uint8)
+    img_pil = Image.fromarray(img_array)
+    img_pil.save(pa)
     return
 def main(args):
     plt.ion()
