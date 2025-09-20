@@ -1,0 +1,548 @@
+[
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\1.jpg",
+        "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\1.jpg",
+        "task_type": "risk_assessment",
+        "expected_format": "Risk categories + Overall Risk Level + Primary Risk Factor"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\1.jpg",
+        "prompt": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: 8\n2. Traffic Safety: 8\n3. Lighting Safety: 5\n4. Infrastructure Safety: 7\n5. Crime Safety: 6\n\nOverall Score: 34/50\nMain Concerns: Lighting, Lack of people\nStrengths: Neighborhood, clean road and sidewalks\n\nImage: Sample SVI\\1.jpg",
+        "task_type": "detailed_analysis",
+        "expected_format": "Detailed scores for 5 safety aspects + Overall Score + Concerns + Strengths"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\1.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\1.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\10.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\10.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\10.jpg",
+        "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\10.jpg",
+        "task_type": "risk_assessment",
+        "expected_format": "Risk categories + Overall Risk Level + Primary Risk Factor"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\10.jpg",
+        "prompt": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: ___\n2. Traffic Safety: ___\n3. Lighting Safety: ___\n4. Infrastructure Safety: ___\n5. Crime Safety: ___\n\nOverall Score: ___/50\nMain Concerns: [List top 3 safety issues]\nStrengths: [List top 3 positive safety features]\n\nImage: Sample SVI\\10.jpg",
+        "task_type": "detailed_analysis",
+        "expected_format": "Detailed scores for 5 safety aspects + Overall Score + Concerns + Strengths"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\11.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\11.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\11.jpg",
+        "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sightlines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\11.jpg",
+        "task_type": "safety_score",
+        "expected_format": "Safety Score: [1-10]\nReasoning: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\11.jpg",
+        "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\11.jpg",
+        "task_type": "risk_assessment",
+        "expected_format": "Risk categories + Overall Risk Level + Primary Risk Factor"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\12.jpg",
+        "prompt": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: ___\n2. Traffic Safety: ___\n3. Lighting Safety: ___\n4. Infrastructure Safety: ___\n5. Crime Safety: ___\n\nOverall Score: ___/50\nMain Concerns: [List top 3 safety issues]\nStrengths: [List top 3 positive safety features]\n\nImage: Sample SVI\\12.jpg",
+        "task_type": "detailed_analysis",
+        "expected_format": "Detailed scores for 5 safety aspects + Overall Score + Concerns + Strengths"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\12.jpg",
+        "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sightlines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\12.jpg",
+        "task_type": "safety_score",
+        "expected_format": "Safety Score: [1-10]\nReasoning: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\12.jpg",
+        "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\12.jpg",
+        "task_type": "risk_assessment",
+        "expected_format": "Risk categories + Overall Risk Level + Primary Risk Factor"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\13.jpg",
+        "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sightlines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\13.jpg",
+        "task_type": "safety_score",
+        "expected_format": "Safety Score: [1-10]\nReasoning: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\13.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\13.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\13.jpg",
+        "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\13.jpg",
+        "task_type": "risk_assessment",
+        "expected_format": "Risk categories + Overall Risk Level + Primary Risk Factor"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\14.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\14.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\14.jpg",
+        "prompt": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: ___\n2. Traffic Safety: ___\n3. Lighting Safety: ___\n4. Infrastructure Safety: ___\n5. Crime Safety: ___\n\nOverall Score: ___/50\nMain Concerns: [List top 3 safety issues]\nStrengths: [List top 3 positive safety features]\n\nImage: Sample SVI\\14.jpg",
+        "task_type": "detailed_analysis",
+        "expected_format": "Detailed scores for 5 safety aspects + Overall Score + Concerns + Strengths"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\14.jpg",
+        "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\14.jpg",
+        "task_type": "risk_assessment",
+        "expected_format": "Risk categories + Overall Risk Level + Primary Risk Factor"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\15.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\15.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\15.jpg",
+        "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sightlines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\15.jpg",
+        "task_type": "safety_score",
+        "expected_format": "Safety Score: [1-10]\nReasoning: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\15.jpg",
+        "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\15.jpg",
+        "task_type": "risk_assessment",
+        "expected_format": "Risk categories + Overall Risk Level + Primary Risk Factor"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\16.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\16.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\16.jpg",
+        "prompt": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: ___\n2. Traffic Safety: ___\n3. Lighting Safety: ___\n4. Infrastructure Safety: ___\n5. Crime Safety: ___\n\nOverall Score: ___/50\nMain Concerns: [List top 3 safety issues]\nStrengths: [List top 3 positive safety features]\n\nImage: Sample SVI\\16.jpg",
+        "task_type": "detailed_analysis",
+        "expected_format": "Detailed scores for 5 safety aspects + Overall Score + Concerns + Strengths"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\16.jpg",
+        "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\16.jpg",
+        "task_type": "risk_assessment",
+        "expected_format": "Risk categories + Overall Risk Level + Primary Risk Factor"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\17.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\17.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\17.jpg",
+        "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sightlines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\17.jpg",
+        "task_type": "safety_score",
+        "expected_format": "Safety Score: [1-10]\nReasoning: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\17.jpg",
+        "prompt": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: ___\n2. Traffic Safety: ___\n3. Lighting Safety: ___\n4. Infrastructure Safety: ___\n5. Crime Safety: ___\n\nOverall Score: ___/50\nMain Concerns: [List top 3 safety issues]\nStrengths: [List top 3 positive safety features]\n\nImage: Sample SVI\\17.jpg",
+        "task_type": "detailed_analysis",
+        "expected_format": "Detailed scores for 5 safety aspects + Overall Score + Concerns + Strengths"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\18.jpg",
+        "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sightlines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\18.jpg",
+        "task_type": "safety_score",
+        "expected_format": "Safety Score: [1-10]\nReasoning: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\18.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\18.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\18.jpg",
+        "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\18.jpg",
+        "task_type": "risk_assessment",
+        "expected_format": "Risk categories + Overall Risk Level + Primary Risk Factor"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\19.jpg",
+        "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sightlines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\19.jpg",
+        "task_type": "safety_score",
+        "expected_format": "Safety Score: [1-10]\nReasoning: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\19.jpg",
+        "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\19.jpg",
+        "task_type": "risk_assessment",
+        "expected_format": "Risk categories + Overall Risk Level + Primary Risk Factor"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\19.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\19.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\2.jpg",
+        "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sightlines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\2.jpg",
+        "task_type": "safety_score",
+        "expected_format": "Safety Score: [1-10]\nReasoning: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\2.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\2.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\2.jpg",
+        "prompt": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: ___\n2. Traffic Safety: ___\n3. Lighting Safety: ___\n4. Infrastructure Safety: ___\n5. Crime Safety: ___\n\nOverall Score: ___/50\nMain Concerns: [List top 3 safety issues]\nStrengths: [List top 3 positive safety features]\n\nImage: Sample SVI\\2.jpg",
+        "task_type": "detailed_analysis",
+        "expected_format": "Detailed scores for 5 safety aspects + Overall Score + Concerns + Strengths"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\20.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\20.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\20.jpg",
+        "prompt": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: ___\n2. Traffic Safety: ___\n3. Lighting Safety: ___\n4. Infrastructure Safety: ___\n5. Crime Safety: ___\n\nOverall Score: ___/50\nMain Concerns: [List top 3 safety issues]\nStrengths: [List top 3 positive safety features]\n\nImage: Sample SVI\\20.jpg",
+        "task_type": "detailed_analysis",
+        "expected_format": "Detailed scores for 5 safety aspects + Overall Score + Concerns + Strengths"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\20.jpg",
+        "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\20.jpg",
+        "task_type": "risk_assessment",
+        "expected_format": "Risk categories + Overall Risk Level + Primary Risk Factor"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\21.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\21.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\21.jpg",
+        "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\21.jpg",
+        "task_type": "risk_assessment",
+        "expected_format": "Risk categories + Overall Risk Level + Primary Risk Factor"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\21.jpg",
+        "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sightlines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\21.jpg",
+        "task_type": "safety_score",
+        "expected_format": "Safety Score: [1-10]\nReasoning: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\22.jpg",
+        "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\22.jpg",
+        "task_type": "risk_assessment",
+        "expected_format": "Risk categories + Overall Risk Level + Primary Risk Factor"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\22.jpg",
+        "prompt": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: ___\n2. Traffic Safety: ___\n3. Lighting Safety: ___\n4. Infrastructure Safety: ___\n5. Crime Safety: ___\n\nOverall Score: ___/50\nMain Concerns: [List top 3 safety issues]\nStrengths: [List top 3 positive safety features]\n\nImage: Sample SVI\\22.jpg",
+        "task_type": "detailed_analysis",
+        "expected_format": "Detailed scores for 5 safety aspects + Overall Score + Concerns + Strengths"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\22.jpg",
+        "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sightlines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\22.jpg",
+        "task_type": "safety_score",
+        "expected_format": "Safety Score: [1-10]\nReasoning: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\23.jpg",
+        "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\23.jpg",
+        "task_type": "risk_assessment",
+        "expected_format": "Risk categories + Overall Risk Level + Primary Risk Factor"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\23.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\23.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\23.jpg",
+        "prompt": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: ___\n2. Traffic Safety: ___\n3. Lighting Safety: ___\n4. Infrastructure Safety: ___\n5. Crime Safety: ___\n\nOverall Score: ___/50\nMain Concerns: [List top 3 safety issues]\nStrengths: [List top 3 positive safety features]\n\nImage: Sample SVI\\23.jpg",
+        "task_type": "detailed_analysis",
+        "expected_format": "Detailed scores for 5 safety aspects + Overall Score + Concerns + Strengths"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\24.jpg",
+        "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\24.jpg",
+        "task_type": "risk_assessment",
+        "expected_format": "Risk categories + Overall Risk Level + Primary Risk Factor"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\24.jpg",
+        "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sightlines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\24.jpg",
+        "task_type": "safety_score",
+        "expected_format": "Safety Score: [1-10]\nReasoning: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\24.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\24.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\25.jpg",
+        "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sightlines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\25.jpg",
+        "task_type": "safety_score",
+        "expected_format": "Safety Score: [1-10]\nReasoning: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\25.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\25.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\25.jpg",
+        "prompt": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: ___\n2. Traffic Safety: ___\n3. Lighting Safety: ___\n4. Infrastructure Safety: ___\n5. Crime Safety: ___\n\nOverall Score: ___/50\nMain Concerns: [List top 3 safety issues]\nStrengths: [List top 3 positive safety features]\n\nImage: Sample SVI\\25.jpg",
+        "task_type": "detailed_analysis",
+        "expected_format": "Detailed scores for 5 safety aspects + Overall Score + Concerns + Strengths"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\26.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\26.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\26.jpg",
+        "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\26.jpg",
+        "task_type": "risk_assessment",
+        "expected_format": "Risk categories + Overall Risk Level + Primary Risk Factor"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\26.jpg",
+        "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sightlines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\26.jpg",
+        "task_type": "safety_score",
+        "expected_format": "Safety Score: [1-10]\nReasoning: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\27.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\27.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\27.jpg",
+        "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sightlines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\27.jpg",
+        "task_type": "safety_score",
+        "expected_format": "Safety Score: [1-10]\nReasoning: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\27.jpg",
+        "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sightlines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\27.jpg",
+        "task_type": "safety_score",
+        "expected_format": "Safety Score: [1-10]\nReasoning: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\27.jpg",
+        "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\27.jpg",
+        "task_type": "risk_assessment",
+        "expected_format": "Risk categories + Overall Risk Level + Primary Risk Factor"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\28.jpg",
+        "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sightlines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\28.jpg",
+        "task_type": "safety_score",
+        "expected_format": "Safety Score: [1-10]\nReasoning: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\28.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\28.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\28.jpg",
+        "prompt": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: ___\n2. Traffic Safety: ___\n3. Lighting Safety: ___\n4. Infrastructure Safety: ___\n5. Crime Safety: ___\n\nOverall Score: ___/50\nMain Concerns: [List top 3 safety issues]\nStrengths: [List top 3 positive safety features]\n\nImage: Sample SVI\\28.jpg",
+        "task_type": "detailed_analysis",
+        "expected_format": "Detailed scores for 5 safety aspects + Overall Score + Concerns + Strengths"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\29.jpg",
+        "prompt": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: ___\n2. Traffic Safety: ___\n3. Lighting Safety: ___\n4. Infrastructure Safety: ___\n5. Crime Safety: ___\n\nOverall Score: ___/50\nMain Concerns: [List top 3 safety issues]\nStrengths: [List top 3 positive safety features]\n\nImage: Sample SVI\\29.jpg",
+        "task_type": "detailed_analysis",
+        "expected_format": "Detailed scores for 5 safety aspects + Overall Score + Concerns + Strengths"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\29.jpg",
+        "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\29.jpg",
+        "task_type": "risk_assessment",
+        "expected_format": "Risk categories + Overall Risk Level + Primary Risk Factor"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\29.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\29.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\3.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\3.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\3.jpg",
+        "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\3.jpg",
+        "task_type": "risk_assessment",
+        "expected_format": "Risk categories + Overall Risk Level + Primary Risk Factor"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\3.jpg",
+        "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sightlines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\3.jpg",
+        "task_type": "safety_score",
+        "expected_format": "Safety Score: [1-10]\nReasoning: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\30.jpg",
+        "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\30.jpg",
+        "task_type": "risk_assessment",
+        "expected_format": "Risk categories + Overall Risk Level + Primary Risk Factor"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\30.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\30.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\30.jpg",
+        "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sightlines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\30.jpg",
+        "task_type": "safety_score",
+        "expected_format": "Safety Score: [1-10]\nReasoning: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\4.jpg",
+        "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\4.jpg",
+        "task_type": "risk_assessment",
+        "expected_format": "Risk categories + Overall Risk Level + Primary Risk Factor"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\4.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\4.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\4.jpg",
+        "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sightlines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\4.jpg",
+        "task_type": "safety_score",
+        "expected_format": "Safety Score: [1-10]\nReasoning: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\5.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\5.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\5.jpg",
+        "prompt": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: ___\n2. Traffic Safety: ___\n3. Lighting Safety: ___\n4. Infrastructure Safety: ___\n5. Crime Safety: ___\n\nOverall Score: ___/50\nMain Concerns: [List top 3 safety issues]\nStrengths: [List top 3 positive safety features]\n\nImage: Sample SVI\\5.jpg",
+        "task_type": "detailed_analysis",
+        "expected_format": "Detailed scores for 5 safety aspects + Overall Score + Concerns + Strengths"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\5.jpg",
+        "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sightlines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\5.jpg",
+        "task_type": "safety_score",
+        "expected_format": "Safety Score: [1-10]\nReasoning: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\6.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\6.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\6.jpg",
+        "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sightlines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\6.jpg",
+        "task_type": "safety_score",
+        "expected_format": "Safety Score: [1-10]\nReasoning: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\6.jpg",
+        "prompt": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: ___\n2. Traffic Safety: ___\n3. Lighting Safety: ___\n4. Infrastructure Safety: ___\n5. Crime Safety: ___\n\nOverall Score: ___/50\nMain Concerns: [List top 3 safety issues]\nStrengths: [List top 3 positive safety features]\n\nImage: Sample SVI\\6.jpg",
+        "task_type": "detailed_analysis",
+        "expected_format": "Detailed scores for 5 safety aspects + Overall Score + Concerns + Strengths"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\7.jpg",
+        "prompt": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: ___\n2. Traffic Safety: ___\n3. Lighting Safety: ___\n4. Infrastructure Safety: ___\n5. Crime Safety: ___\n\nOverall Score: ___/50\nMain Concerns: [List top 3 safety issues]\nStrengths: [List top 3 positive safety features]\n\nImage: Sample SVI\\7.jpg",
+        "task_type": "detailed_analysis",
+        "expected_format": "Detailed scores for 5 safety aspects + Overall Score + Concerns + Strengths"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\7.jpg",
+        "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\7.jpg",
+        "task_type": "risk_assessment",
+        "expected_format": "Risk categories + Overall Risk Level + Primary Risk Factor"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\7.jpg",
+        "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sightlines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\7.jpg",
+        "task_type": "safety_score",
+        "expected_format": "Safety Score: [1-10]\nReasoning: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\8.jpg",
+        "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sightlines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\8.jpg",
+        "task_type": "safety_score",
+        "expected_format": "Safety Score: [1-10]\nReasoning: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\8.jpg",
+        "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\8.jpg",
+        "task_type": "risk_assessment",
+        "expected_format": "Risk categories + Overall Risk Level + Primary Risk Factor"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\8.jpg",
+        "prompt": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: ___\n2. Traffic Safety: ___\n3. Lighting Safety: ___\n4. Infrastructure Safety: ___\n5. Crime Safety: ___\n\nOverall Score: ___/50\nMain Concerns: [List top 3 safety issues]\nStrengths: [List top 3 positive safety features]\n\nImage: Sample SVI\\8.jpg",
+        "task_type": "detailed_analysis",
+        "expected_format": "Detailed scores for 5 safety aspects + Overall Score + Concerns + Strengths"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\9.jpg",
+        "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\9.jpg",
+        "task_type": "binary_classification",
+        "expected_format": "Classification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [explanation]"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\9.jpg",
+        "prompt": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: ___\n2. Traffic Safety: ___\n3. Lighting Safety: ___\n4. Infrastructure Safety: ___\n5. Crime Safety: ___\n\nOverall Score: ___/50\nMain Concerns: [List top 3 safety issues]\nStrengths: [List top 3 positive safety features]\n\nImage: Sample SVI\\9.jpg",
+        "task_type": "detailed_analysis",
+        "expected_format": "Detailed scores for 5 safety aspects + Overall Score + Concerns + Strengths"
+    },
+    {
+        "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\9.jpg",
+        "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sightlines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\9.jpg",
+        "task_type": "safety_score",
+        "expected_format": "Safety Score: [1-10]\nReasoning: [explanation]"
+    }
+]
