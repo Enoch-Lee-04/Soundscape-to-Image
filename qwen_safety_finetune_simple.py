@@ -23,7 +23,6 @@ from transformers import (
     Trainer,
     HfArgumentParser
 )
-from transformers.trainer_utils import get_last_checkpoint
 from tqdm import tqdm
 
 
@@ -62,7 +61,7 @@ class DataArguments:
 
 
 @dataclass
-class TrainingArguments:
+class CustomTrainingArguments:
     """Arguments for training configuration"""
     output_dir: str = field(
         default="./qwen_safety_model",
@@ -239,8 +238,8 @@ def main():
     print("=" * 60)
     
     # Parse arguments
-    parser = HfArgumentParser((ModelArguments, DataArguments, TrainingArguments))
-    model_args, data_args, training_args = parser.parse_args_into_dataclasses()
+    parser = HfArgumentParser((ModelArguments, DataArguments, CustomTrainingArguments))
+    model_args, data_args, custom_args = parser.parse_args_into_dataclasses()
     
     # Load model and processor
     print("Loading model and processor...")
@@ -297,22 +296,22 @@ def main():
     
     # Set up training arguments
     training_args = TrainingArguments(
-        output_dir=training_args.output_dir,
-        num_train_epochs=training_args.num_train_epochs,
-        per_device_train_batch_size=training_args.per_device_train_batch_size,
-        per_device_eval_batch_size=training_args.per_device_eval_batch_size,
-        gradient_accumulation_steps=training_args.gradient_accumulation_steps,
-        learning_rate=training_args.learning_rate,
-        warmup_ratio=training_args.warmup_ratio,
-        logging_steps=training_args.logging_steps,
-        save_steps=training_args.save_steps,
-        eval_steps=training_args.eval_steps,
-        save_total_limit=training_args.save_total_limit,
-        load_best_model_at_end=training_args.load_best_model_at_end,
-        metric_for_best_model=training_args.metric_for_best_model,
-        greater_is_better=training_args.greater_is_better,
-        report_to=training_args.report_to,
-        run_name=training_args.run_name,
+        output_dir=custom_args.output_dir,
+        num_train_epochs=custom_args.num_train_epochs,
+        per_device_train_batch_size=custom_args.per_device_train_batch_size,
+        per_device_eval_batch_size=custom_args.per_device_eval_batch_size,
+        gradient_accumulation_steps=custom_args.gradient_accumulation_steps,
+        learning_rate=custom_args.learning_rate,
+        warmup_ratio=custom_args.warmup_ratio,
+        logging_steps=custom_args.logging_steps,
+        save_steps=custom_args.save_steps,
+        eval_steps=custom_args.eval_steps,
+        save_total_limit=custom_args.save_total_limit,
+        load_best_model_at_end=custom_args.load_best_model_at_end,
+        metric_for_best_model=custom_args.metric_for_best_model,
+        greater_is_better=custom_args.greater_is_better,
+        report_to=custom_args.report_to,
+        run_name=custom_args.run_name,
     )
     
     # Create trainer
@@ -325,13 +324,10 @@ def main():
         data_collator=None,  # We handle collation in the dataset
     )
     
-    # Check for checkpoint
-    checkpoint = None
-    if training_args.resume_from_checkpoint is not None:
-        checkpoint = training_args.resume_from_checkpoint
-    elif os.path.isdir(training_args.output_dir):
-        checkpoint = get_last_checkpoint(training_args.output_dir)
-    
+    # Check for existing model directory
+    if os.path.isdir(training_args.output_dir):
+        print(f"Warning: Output directory {training_args.output_dir} already exists. Training will overwrite existing model.")
+
     # Start training
     print("Starting training...")
     print(f"Training on {len(train_dataset)} examples")
@@ -339,7 +335,7 @@ def main():
     print("Note: CPU training will be slow. Consider using a GPU for faster training.")
     
     try:
-        trainer.train(resume_from_checkpoint=checkpoint)
+        trainer.train()
         
         # Save final model
         print("Saving final model...")
