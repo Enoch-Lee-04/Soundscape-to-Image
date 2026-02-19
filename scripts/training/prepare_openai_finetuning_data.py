@@ -48,28 +48,7 @@ def prepare_training_data(input_file: Path, output_file: Path, include_images: b
         include_images: Whether to include base64 encoded images (for vision models)
     """
     # System message for all training examples
-    SYSTEM_MESSAGE = """You are a Vision Language Model trained to evaluate the perceived safety of a single street-view image.
-
-Your task is to analyze one image at a time and predict a safety score from 0 to 10:
-
-1. A **safety score from 0 to 10**, where:
-    - 0 means extremely unsafe
-    - 10 means extremely safe
-
-2. After providing the score, explain your reasoning in **2–5 concise bullet points**, each grounded only in **visible environmental cues** present in the image. Base your assessment entirely on what is visible — do not infer details beyond the image.
-
-Visual elements to consider:
-- Lighting and visibility: streetlights, shadows, time of day, visibility distance
-- Maintenance and cleanliness: litter, graffiti, broken infrastructure, general upkeep
-- Social activity: presence of people, pedestrians, vehicles, or community engagement
-- Environment and design: open vs. enclosed areas, fencing, barriers, accessibility
-- Safety features: crosswalks, sidewalks, cameras, signage, traffic control
-
-Respond using this exact format:
-Score: X/10
-Reason: ["reason 1", "reason 2", "reason 3", ...]
-
-Be specific and consistent. Avoid vague or overly generic explanations. Use the full 0–10 scale when appropriate."""
+    SYSTEM_MESSAGE = """[REDACTED]"""
 
     print(f"Loading ground truth data from {input_file}...")
     
